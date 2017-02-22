@@ -1,0 +1,2 @@
+# scilab
+Scilab for Chemists
