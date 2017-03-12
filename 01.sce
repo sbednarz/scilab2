@@ -62,6 +62,8 @@ m1(1,1)
 m1(2,2)
 m1(1,1) + m1(2,2)
 
+// ! indeksowanie zaczyna się od 1
+
 // wybieranie 'większych częśći' kolumn, wierszy
 m1(1:2,1:2)
 m1(:,2)
