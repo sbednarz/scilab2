@@ -23,6 +23,32 @@ dd = [aa, bb]
 a = [1:2:6]
 b = [1:5 ; 1:5]
 
+// apostrof = transpozycja wektorów/macierzy
+
+aa
+aa'
+
+// () jednym z zastosowań - wybieranie elementów z wektrów/macierzy
+// indeksowanie (od 1)
+
+a = [1,2,3,4]
+a(1)
+a(2)
+
+b = [1,2,3;4,5,6]
+// (wiersz,kolumna)
+b(1,1)
+b(2,3)
+// : = cały wiersz/kolumna
+b(:)
+b(:,:)
+b(1,:)
+b(:,1)
+// albo zakres - wycinek
+b(1,1:2)
+
+
+
 
 //------------------
 
