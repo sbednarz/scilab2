@@ -1,5 +1,6 @@
 // komentarz zaczynają dwa slashe
 // Scilab: https://www.scilab.org/download/latest
+// https://help.scilab.org/docs/6.0.0/en_US/index.html
 
 // konsola
 // echo
