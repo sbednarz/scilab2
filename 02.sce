@@ -22,3 +22,12 @@ dd = [aa, bb]
 
 a = [1:2:6]
 b = [1:5 ; 1:5]
+
+
+//------------------
+
+x = 1:10
+y = sin(x)
+plot(x,y,'b.')
+xlabel('xxx')
+ylabel('yyy')
