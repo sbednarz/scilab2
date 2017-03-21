@@ -51,6 +51,20 @@ disp(x)
 // tutaj rozwiązanie
 
 
+// rozwiązać układ równań
+// x^2 + y^2 = 4, x*y = 1
+
+function eq = fun(u)
+    x = u(1)
+    y = u(2)
+    eq(1) = x^2 + y^2 - 4
+    eq(2) = x*y - 1
+endfunction
+
+
+disp( fsolve([1; 0], fun) )
+disp( fsolve([0; -1], fun) )
+
 
 
 // from documentation:
