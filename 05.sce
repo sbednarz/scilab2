@@ -32,7 +32,7 @@ function eq=model(u)
 	A=u(1)
 	B=u(2)
 	eq(1)=B/A-K
-	eq(2)=A+0.5*B-A0
+	eq(2)=A + 2*B - A0
 endfunction
 
 [conc,v,info]=fsolve([0.5;0.5],model)
@@ -40,7 +40,7 @@ endfunction
 disp(conc)
 disp(info)
 //sprawdzenie
-disp(conc(1)+conc(2)/2)
+disp(conc(1)+conc(2)*2)
 
 clear
 
